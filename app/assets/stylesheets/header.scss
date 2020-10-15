@@ -1,10 +1,7 @@
-
 @import 'variables';
-
 $avatar-size: 40px;
 $header-padding-y: 16px;
 $back-icon-size: 16px;
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -21,11 +18,9 @@ $back-icon-size: 16px;
     color: $primary-color;
   }
 
-
   &_logos {
     min-width: 0;
     display: flex;
-
     img {
       cursor: pointer;
       width: $back-icon-size;
@@ -33,14 +28,11 @@ $back-icon-size: 16px;
       margin: ($avatar-size - $back-icon-size) / 2 8px 0;
     }
   }
-
-
   &_pageTitle {
     color: white;
     line-height: $avatar-size;
     font-size: $font-lg;
   }
-
   &_avatar {
     width: $avatar-size;
     height: $avatar-size;
